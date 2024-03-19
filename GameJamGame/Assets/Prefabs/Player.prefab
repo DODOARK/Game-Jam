@@ -165,7 +165,7 @@ MonoBehaviour:
   mouseSensitivityY: 1
   movementSpeed: 75
   jumpForce: 10
-  additionalGravity: 10
+  additionalGravity: 5
   mouseYClamp: 90
   rb: {fileID: 8732713228034070257}
   camTransform: {fileID: 8732713227243637746}
