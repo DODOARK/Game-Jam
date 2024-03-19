@@ -35,8 +35,8 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = Physics.Raycast(transform.position, -transform.up, 1f);
 
-        mouseX += Input.GetAxis("Mouse X") * mouseSensitivityX * Time.deltaTime;
-        mouseY -= Input.GetAxis("Mouse Y") * mouseSensitivityY * Time.deltaTime;
+        mouseX += Input.GetAxis("Mouse X") * mouseSensitivityX;
+        mouseY -= Input.GetAxis("Mouse Y") * mouseSensitivityY;
 
         mouseX = Mathf.Repeat(mouseX, 359);
         mouseY = Mathf.Clamp(mouseY, -mouseYClamp, mouseYClamp);
