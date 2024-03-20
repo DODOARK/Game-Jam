@@ -17,5 +17,6 @@ public class EndGame : MonoBehaviour
     {
         endCamera.SetActive(true);
         playerCam.SetActive(false);
+        text.text = lateText;
     }
 }
