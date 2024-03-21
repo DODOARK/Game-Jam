@@ -15,8 +15,11 @@ public class EndGame : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        endCamera.SetActive(true);
-        playerCam.SetActive(false);
-        text.text = lateText;
+        if (other.gameObject.name == "Player")
+        {
+            endCamera.SetActive(true);
+            playerCam.SetActive(false);
+            text.text = lateText;
+        }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Punch : MonoBehaviour
 {
@@ -74,6 +75,10 @@ public class Punch : MonoBehaviour
                     move = true;
                     counter++;
                 }
+            }
+            else if (hitObject.name == "BodyDeezNuts")
+            {
+                SceneManager.LoadScene("End");
             }
         }
     }

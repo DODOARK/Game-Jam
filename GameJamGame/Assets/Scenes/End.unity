@@ -4622,7 +4622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &870625994
 Camera:
   m_ObjectHideFlags: 0
@@ -16572,7 +16572,7 @@ MonoBehaviour:
   playerCam: {fileID: 893718554}
   endCamera: {fileID: 870625992}
   lateText: 'Friend : Bitch. you late! There will be consequences'
-  onTimeText: 'Friend : For ones in your life you are not late'
+  onTimeText: 'Friend : For once in your life you are not late'
 --- !u!65 &2139459649
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16594,7 +16594,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139459647}
   m_LocalRotation: {x: -0, y: 0.23698767, z: -0, w: 0.9715127}
-  m_LocalPosition: {x: -7.27, y: 0, z: -89.47}
+  m_LocalPosition: {x: -7.27, y: 5.57, z: -89.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
