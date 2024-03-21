@@ -20,6 +20,8 @@ public class Punch : MonoBehaviour
 
     public bool move = false;
 
+    public AudioSource audio;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
@@ -80,6 +82,8 @@ public class Punch : MonoBehaviour
             {
                 SceneManager.LoadScene("End");
             }
+
+            if (audio != null) audio.Play();
         }
     }
 }
